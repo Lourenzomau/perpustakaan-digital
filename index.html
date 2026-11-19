@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Perpustakaan Digital</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar">
+    <a class="logo" href="#beranda">📚 <span>Perpustakaan Digital</span></a>
+    <nav id="nav">
+      <a href="#beranda" data-v="beranda">Beranda</a>
+      <a href="#katalog" data-v="katalog">Katalog</a>
+      <div class="dd"><button class="ddb" type="button">Layanan Petugas ▾</button>
+        <div class="ddm">
+          <a href="#peminjaman" data-v="peminjaman">Peminjaman</a>
+          <a href="#pengembalian" data-v="pengembalian">Pengembalian</a>
+          <a href="#anggota" data-v="anggota">Data Anggota</a>
+          <a href="#laporan" data-v="laporan">Laporan</a>
+        </div></div>
+    </nav>
+  </div>
+</header>
+<main id="view"></main>
+<footer><div class="wrap">© Perpustakaan Digital Berbasis Cloud · Praktikum Cloud Computing · Hosted on GitHub Pages</div></footer>
+<div id="toast"></div>
+<script src="js/seed.js"></script>
+<script src="js/logic.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
